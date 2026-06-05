@@ -7,6 +7,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root1234
       MYSQL_DATABASE: settlement_db
+      MYSQL_USER: stmt
+      MYSQL_PASSWORD: stmt12
       MYSQL_CHARACTER_SET_SERVER: utf8mb4
       MYSQL_COLLATION_SERVER: utf8mb4_unicode_ci
     ports:
