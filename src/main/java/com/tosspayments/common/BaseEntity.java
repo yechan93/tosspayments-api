@@ -1,4 +1,4 @@
-package com.tosspayments.settlement.common;
+package com.tosspayments.common;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -26,3 +26,4 @@ public abstract class BaseEntity {
 	@LastModifiedDate
 	private LocalDateTime updatedAt;
 }
+

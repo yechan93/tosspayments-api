@@ -1,4 +1,4 @@
-package com.tosspayments.settlement.domain.payment.entity;
+package com.tosspayments.domain.payment.entity;
 
 /**
  * 결제 상태
@@ -12,3 +12,4 @@ public enum PaymentStatus {
 	ABORTED,    // 결제 중단
 	EXPIRED     // 결제 만료
 }
+

@@ -22,7 +22,7 @@ spring:
 
 toss:
   payments:
-    secret-key: test_sk_YOUR_SECRET_KEY  # 토스 개발자센터에서 발급
+    secret-key: test_sk_d46qopOB899Xp7pm6lod8ZmM75y0  # 토스 개발자센터에서 발급
     base-url: https://api.tosspayments.com
 
 logging:

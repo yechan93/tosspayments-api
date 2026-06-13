@@ -1,14 +1,6 @@
-package com.tosspayments.settlement.domain.settlement.entity;
+package com.tosspayments.domain.settlement.entity;
 
-import com.tosspayments.settlement.common.BaseEntity;
-import jakarta.persistence.*;
-import lombok.AccessLevel;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-
-import java.math.BigDecimal;
-import java.time.LocalDate;
+import com.tosspayments.common.BaseEntity;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -103,3 +95,4 @@ public class Settlement extends BaseEntity {
 		this.status = SettlementStatus.FAILED;
 	}
 }
+

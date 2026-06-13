@@ -1,6 +1,6 @@
-package com.tosspayments.settlement.domain.payment.entity;
+package com.tosspayments.domain.payment.entity;
 
-import com.tosspayments.settlement.common.BaseEntity;
+import com.tosspayments.common.BaseEntity;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -95,3 +95,4 @@ public class Payment extends BaseEntity {
 		this.status = PaymentStatus.CANCELED;
 	}
 }
+
